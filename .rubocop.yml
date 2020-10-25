@@ -1,0 +1,31 @@
+AllCops:
+  TargetRubyVersion: 2.6
+  Exclude:
+    - 'db/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+    - 'bin/**/*'
+    - 'log/**/*'
+Documentation:
+  Enabled: false
+Metrics/BlockLength:
+  Max: 100
+  Exclude:
+    - 'spec/**/*.rb'
+Metrics/LineLength:
+  Max: 120
+  AllowURI: true
+  URISchemes:
+    - http
+    - https
+Metrics/MethodLength:
+  CountComments: false
+  Max: 15
+Style/RaiseArgs:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
