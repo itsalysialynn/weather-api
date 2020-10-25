@@ -1,24 +1,63 @@
-# README
+## Notes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Date
 
-Things you may want to cover:
+### Location of deployed application
 
-* Ruby version
+### Time spent
 
-* System dependencies
+### Assumptions made
 
-* Configuration
+### Shortcuts/Compromises made
 
-* Database creation
+### Stretch goals attempted
+ 
+### Instructions to run assignment locally
+ 
+#### Clone the repository
+ 
+ ```shell
+ git clone git@github.com:itsalysialynn/weather-api.git
+ cd weather-api
+ ```
+ 
+#### Check your Ruby version
+ 
+ ```shell
+ ruby -v
+ ```
+ 
+The output should be `ruby 2.6.3`
+ 
+If not, install the right ruby version using [rvm](https://rvm.io/)
+ 
+ ```shell
+ rvm install 2.6.3
+ rvm use 2.6.3
+ ```
+ 
+#### Install dependencies
+ 
+Installed using [Bundler](https://github.com/bundler/bundler)
+ 
+ ```shell
+ bundle install
+ ```
+ 
+#### Initialize the database
+ 
+ ```shell
+ rails db:create db:migrate db:seed
+ ```
 
-* Database initialization
+#### Start the server
 
-* How to run the test suite
+ ```shell
+ rails s -p 4000
+ ```
 
-* Services (job queues, cache servers, search engines, etc.)
+### What did you not include in your solution that you want us to know about?
 
-* Deployment instructions
+### Other information about your submission that you feel it's important that we know if applicable.
 
-* ...
+### Your feedback on this technical challenge
