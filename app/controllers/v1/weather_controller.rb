@@ -11,10 +11,4 @@ class V1::WeatherController < ApplicationController
   def weather_for_city
     Rails.configuration.open_weather_api.current city: params[:city]
   end
-
-  def find_city
-    @city = City.find(params[:id])
-  rescue ActiveRecord::RecordNotFound => e
-    render json: e, status: :not_found
-  end
 end
