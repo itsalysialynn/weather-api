@@ -1,19 +1,4 @@
-## Notes
 
-### Date
-
-### Location of deployed application
-
-### Time spent
-
-### Assumptions made
-
-### Shortcuts/Compromises made
-
-### Stretch goals attempted
- 
-### Instructions to run assignment locally
- 
 #### Clone the repository
  
  ```shell
@@ -55,9 +40,3 @@ Installed using [Bundler](https://github.com/bundler/bundler)
  ```shell
  rails s -p 4000
  ```
-
-### What did you not include in your solution that you want us to know about?
-
-### Other information about your submission that you feel it's important that we know if applicable.
-
-### Your feedback on this technical challenge
